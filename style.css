@@ -5,8 +5,12 @@ body {
     gap: 15px;
     line-height: 130%;
     color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+  
+    background-image: url(bg20.png);
+    background-size: cover;
+    background-position: center;
 }
+
 
 H1 {
     grid-row: inherit;
@@ -19,14 +23,22 @@ img {
     height: auto;
 }
 
-p{
+p {
     font-size: 16px;
     text-align: center;
 }
-hr{
+
+hr {
     background: rgb(0, 0, 0);
-    height: 1,5px;
+    height: 1, 5px;
 
     grid-column: 1/4;
 }
 
+.nompicto {}
+
+.aboutcontact {
+    text-align: center;
+    font-size: 16px;
+text-decoration: none;
+}
