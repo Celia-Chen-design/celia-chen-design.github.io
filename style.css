@@ -83,6 +83,14 @@ p {
     text-align: left;
 
 }
+.b1{
+   grid-column: 1/-1;
+   max-width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 
 .projet-bis {
     grid-template-columns: repeat(1, 1fr);
@@ -143,7 +151,8 @@ a:hover {
     max-width: 85%;
     height: auto;
     display: grid;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 .home {
     grid-column: 1/-1;
