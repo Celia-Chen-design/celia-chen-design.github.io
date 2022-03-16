@@ -6,10 +6,13 @@ body {
     line-height: 130%;
     color: rgb(0, 0, 0);
 
-    background-image: url(bg20.jpg);
+  background-color: rgb(251, 250, 255);
     background-size: cover;
     background-position: center;
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
 }
 
 h2{
@@ -100,6 +103,7 @@ p {
 
 .projet-bis {
     grid-template-columns: repeat(1, 1fr);
+    
 }
 
 @media (min-width : 200px) {
